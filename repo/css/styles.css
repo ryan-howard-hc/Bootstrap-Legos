@@ -1,7 +1,6 @@
-/* Your code goes here, if needed */
+
 .hero-text {
-    /* Add necessary styles for the hero text */
-    /* Example styles */
+    /* had to use a previously formatted one for this and the hero image */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -13,8 +12,6 @@
 }
 .hero-image {
     background-image: url(/repo/images/ainc-logo.png);
-    /* Add necessary styles for the hero image */
-    /* Example styles */
     height: 100px;
     background-position: center;
     background-repeat: no-repeat;
