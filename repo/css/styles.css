@@ -6,9 +6,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: black;
     text-align: center;
     font-size: x-large;
+    
 }
 .hero-image {
     background-image: url(/repo/images/ainc-logo.png);
@@ -20,6 +21,11 @@
     background-size: cover;
     position: relative;
 }
+
+.navbar-nav .nav-link {
+    margin-right: 20px; /* FINALLY FIXED. nav link div is inside of navbar nav requiring to list them both */
+}
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -29,10 +35,6 @@ body {
     font-size: 20px;
 }
     
-.navbar {
-    display: flex;
-    justify-content: center;
-  }
 
 /* DO NOT CHANGE CODE BELOW THIS LINE */
 .red {
